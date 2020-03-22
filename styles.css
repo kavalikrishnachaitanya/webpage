@@ -1,0 +1,78 @@
+html, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+  
+.wrapper {
+    background-color: rgb(35, 38, 53);
+    
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 70%;
+}
+  
+.left, .right {
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    margin: 5px;
+    max-width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+}
+  
+.left {
+    align-items: center;
+    justify-content: center;
+}
+.body {
+    background: linear-gradient(to bottom, rgb(0, 0, 0) 00%, rgb(23, 34, 46) 100%);
+}
+.image1{
+    border-radius: 50%;
+}
+.main { 
+    text-align:center; 
+    color: aliceblue;
+} 
+.scroll{ 
+    padding-top:30px; 
+    padding-bottom:30px; 
+    width: 1000px;
+} 
+.kkc { 
+    font-size:xx-large; 
+    font-weight:bold; 
+    color:white; 
+    cursor: all-scroll;
+    padding-bottom:10px; 
+}
+.webpage{
+    font-size: larger;
+    font-weight: bold;
+    color: aliceblue;
+    padding: 20px;
+}
+.image2{
+    border-radius: 35%;
+    align-self: flex-start;
+}
+.image3{
+    border-radius: 25%;
+    cursor: alias;
+}
+.name{
+    text-align:center; 
+    color: aliceblue;
+}
+.about{
+    font-size: xx-large;
+    color: aliceblue;
+}
